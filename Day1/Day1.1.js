@@ -1,9 +1,9 @@
 const data = require("./data")
 
 // TODO:
-// pull any numeric digits from the strings
-// if > 1 digits, only take the first and last ones and add those
-// sum all of these digits
+// remove non numeric digits
+// shorten to two digits (first and last)
+// sum all digits
 
 const formatData = () => {
     return data.data.split('\n')
