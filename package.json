@@ -7,8 +7,5 @@
     "print": "node index.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "words-to-numbers": "^1.5.1"
-  }
+  "license": "ISC"
 }
