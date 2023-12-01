@@ -1,5 +1,5 @@
-const { getSum } = require('./day1_challenge/day1_part1')
-const getUpdatedSum = require('./day1_challenge/day1_part2')
+const { getSum } = require('./challenges/day1/part1')
+const getUpdatedSum = require('./challenges/day1/part2')
 
 // ------------------- DAY 02 ----------------------- //
 

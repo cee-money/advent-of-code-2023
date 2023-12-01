@@ -1,5 +1,5 @@
 const { numbers } = require('./data')
-const { formattedData, getSum } = require('./day1_part1')
+const { formattedData, getSum } = require('./part1')
 
 // TODO:
 // convert word numbers to numeric strings but leave letters for run on edge case
