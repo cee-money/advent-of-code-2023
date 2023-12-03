@@ -1,8 +1,11 @@
 const { getSum } = require('./challenges/day1/part1')
 const getUpdatedSum = require('./challenges/day1/part2')
+const getSumOfPossibleGames = require('./challenges/day2/part1')
 
 // ------------------- DAY 02 ----------------------- //
 
+const day2_1Solution = getSumOfPossibleGames
+console.log('Day 2, part 1: ' + day2_1Solution())
 
 // ------------------- DAY 01 ----------------------- //
 
