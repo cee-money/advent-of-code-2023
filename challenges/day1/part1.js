@@ -1,4 +1,4 @@
-const { data } = require('./data')
+const { data } = require('../../puzzle_input/day1_data')
 
 // TODO:
 // remove non numeric digits

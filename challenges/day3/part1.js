@@ -1,4 +1,4 @@
-let data = require('./data')
+let data = require('../../puzzle_input/day3_data')
 const mathjs = require('mathjs')
 
 data = data.split('\n')

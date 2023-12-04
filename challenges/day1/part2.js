@@ -1,4 +1,4 @@
-const { numbers } = require('./data')
+const { numbers } = require('../../puzzle_input/day1_data')
 const { formattedData, getSum } = require('./part1')
 
 // TODO:

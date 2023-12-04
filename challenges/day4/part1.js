@@ -1,4 +1,4 @@
-let data = require('./data')
+let data = require('../../puzzle_input/day4_data')
 
 const filterFalsey = (num) => {
     return !!num

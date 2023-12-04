@@ -1,4 +1,4 @@
-const data = require('./data')
+const data = require('../../puzzle_input/day2_data')
 
 // TODO
 // format data - key is game id, value is array of objects with key for each selection and value is selection
