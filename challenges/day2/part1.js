@@ -3,7 +3,7 @@ const data = require('./data')
 // TODO
 // format data - key is game id, value is array of objects with key for each selection and value is selection
 // iterate and find every game whose selections are less than the limits per color:
-    // 12 red, 13 green, and 14 blue as limits (so <= is possible)
+    // 12 red, 13 green, and 14 blue as limits (so <= is possible, > impossible)
 
 const formatData = () => {
     return data.split('\n').map((item) => {
@@ -84,14 +84,8 @@ const getImossibleGameNums = ()  => {
     })
 }
 
-const removeDupes = (arr) => {
-   return arr.filter((item, index) => arr.indexOf(item) === index)
-}
-
 const getSumOfPossibleGames = () => {
     getImossibleGameNums()
-    const dupesRemoved = removeDupes(impossibleGames)
-    // console.log(dupesRemoved)
     const possibleGames = allGames.filter((game) => {
        return !impossibleGames.includes(game)
     })
@@ -99,4 +93,8 @@ const getSumOfPossibleGames = () => {
     return possibleGames.reduce((a, b) => a + b, 0)
 }
 
-module.exports = getSumOfPossibleGames
+module.exports = {
+    getSumOfPossibleGames,
+    reformattedDataAsObjects,
+    Colors
+}
