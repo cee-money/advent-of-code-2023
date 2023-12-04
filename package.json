@@ -7,5 +7,8 @@
     "print": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mathjs": "^12.1.0"
+  }
 }
