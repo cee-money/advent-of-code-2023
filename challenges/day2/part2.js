@@ -41,6 +41,4 @@ const getSumOfPowers = () => {
     return getPowers().reduce((a, b) => a + b)
 }
 
-console.log(getSumOfPowers())
-
 module.exports = getSumOfPowers

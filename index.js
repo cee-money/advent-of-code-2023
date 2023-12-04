@@ -2,6 +2,12 @@ const { getSum } = require('./challenges/day1/part1')
 const getUpdatedSum = require('./challenges/day1/part2')
 const { getSumOfPossibleGames } = require('./challenges/day2/part1')
 const getSumOfPowers = require('./challenges/day2/part2')
+const getTotalPoints = require('./challenges/day4/part1')
+
+// ------------------- DAY 04 ----------------------- //
+
+const day4_1Solution = getTotalPoints
+console.log('Day 4, part 1: ' + day4_1Solution())
 
 // ------------------- DAY 02 ----------------------- //
 
